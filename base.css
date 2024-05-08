@@ -1,0 +1,58 @@
+body,
+p,
+div,
+ul,
+ol,
+li,
+div,
+h1,h2,h3,h4,h5,h6,
+input {
+    margin: 0;
+    padding: 0;
+}
+/*  */
+body {
+    font-size: 16px;
+    color: #999999;
+    /* color: gold; */
+}
+/*  */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*  */
+ol,ul {
+    list-style: none;
+}
+/*  */
+a {
+    text-decoration: none;
+}
+ 
+.clearfix::after,
+.clearfix::before {
+    content: ' ';
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: none;
+}
+p {
+    margin-bottom: 5px;
+    text-indent: 2em;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,284 @@
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(./bg04.jpeg);
+    background-size: cover;
+}
+/*  */
+.oh-top {
+    width: 100%;
+    height: 52px;
+    background-color:rgba(255, 255, 255, 0.8);
+    margin-bottom: 5px;
+}
+
+.oh-top .container {
+    height: 52px;
+    /* background-color: yellow; */
+}
+.oh-top .logo {
+    height: 52px;
+    width: 100px;
+    background: no-repeat;
+    background-image: url(./偶活封面字体.jpg);
+    background-size: cover;
+    
+}
+.oh-top li {
+    display: inline-block;
+    height: 52px;
+    line-height: 52px;
+    margin-right: 10px;
+}
+.oh-top li:last-child {
+    margin-right: 0px;
+}
+.oh-top li{
+    color: white;
+    font-size: 16px;
+}
+.oh-top li:hover{
+    font-size: 18px;
+    color: gold;
+}
+.oh-top .active {
+    font-size: 18px;
+    color: gold;
+}
+/*  */
+.indu .container {
+    height: 2800px;
+    /* background-color: pink; */
+}
+.indu .one {
+    height: 380px;
+    /* background-color: gold; */
+}
+.indu .one .onall-pu {
+    height: 320px;
+    width: 660px;
+    display: inline-block;
+    background-image: url(./星光学院校园.jpg);
+    background-size: cover;
+    border: 2px solid gold;
+}
+.indu .one .onall-pu {
+    height: 320px;
+    width: 660px;
+}
+.indu .one .onall-in {
+    width: 500px;
+    height: 220px;
+    padding-top: 100px;
+}
+/*  */
+.indu .onall-item {
+    width: 100%;
+    height: 1600px;
+    
+    /* background-color: green; */
+}
+
+.indu .onall-item .one-item {
+    width: 240px;
+    height: 360px;
+    font-size: 14px;
+    margin-right: 8px;
+    display: inline-block;
+    margin-bottom: 10px;
+    /* background-color: green; */
+}
+.indu .one-item .one-pu {
+    width: 240px;
+    height: 360px;
+    position: relative;
+}
+.indu .one-item .one-pu .one-in {
+    display: none;
+    width: 240px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+}
+.indu .one-item .one-pu a {
+    color: #fff;
+}
+.indu .one-item:hover .one-in {
+    display: block;
+}
+/*  */
+.indu .onall-item .one-item:nth-child(5n) {
+    margin-right: 0px;
+}
+.indu .onall-item .one-item:nth-child(1) {
+    background-image: url(./美月校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(2) {
+    background-image: url(./星宫莓校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(3) {
+    background-image: url(./葵校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(4) {
+    background-image: url(./兰校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(5) {
+    background-image: url(./乙女校服.jpeg);
+    background-size: cover;
+}   
+.indu .onall-item .one-item:nth-child(6) {
+    background-image: url(./百合华校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(7) {
+    background-image: url(./樱校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(8) {
+    background-image: url(./枫校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(9) {
+    background-image: url(./紫苑校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(10) {
+    background-image: url(./明校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(11) {
+    background-image: url(./冰校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(12) {
+    background-image: url(./明组合校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(13) {
+    background-image: url(./珠漓校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(14) {
+    background-image: url(./天羽圆香校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(15) {
+    background-image: url(./黑泽凛校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(16) {
+    background-image: url(./藤原雅校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(17) {
+    background-image: url(./栗栖心音校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(18) {
+    background-image: url(./大地乃野校服.jpeg);
+    background-size: cover;
+}
+.indu .onall-item .one-item:nth-child(19) {
+    background-image: url(./白桦丽莎.jpeg);
+    background-size: cover;
+}
+
+
+
+/* 梦幻学院 */
+.indu .two {
+    width: 100%;
+    height: 380px;
+
+}
+.indu .two .twall-pu {
+    width: 660px;
+    height: 320px;
+    display: inline-block;
+    background-image: url(./梦院.jpeg);
+    background-size: cover;
+    border: 2px solid gold;
+}
+.indu .two .twall-in {
+    width: 500px;
+    height: 220px;
+    padding-top: 100px;
+}
+
+
+.indu .twall-item {
+    width: 100%;
+    height: 400px;
+    /* background-color: green; */
+}
+
+.indu .twall-item .two-item {
+    width: 240px;
+    height: 360px;
+    font-size: 14px;
+    margin-right: 8px;
+    display: inline-block;
+    margin-bottom: 10px;
+    /* background-color: green; */
+    background-size: cover;
+}
+.indu .two-item .item-pu {
+    width: 240px;
+    height: 360px;
+    position: relative;
+    
+}
+.indu .two-item .item-pu .item-in {
+    display: none;
+    width: 240px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+}
+.indu .two-item .item-pu a {
+    color: #fff;
+}
+.indu .two-item:hover .item-in {
+    display: block;
+}
+/*  */
+.indu .twall-item .two-item:nth-child(5n) {
+    margin-right: 0px;
+}
+.indu .twall-item .two-item:nth-child(1) {
+    background-image: url(./塞拉校服.jpeg);
+}
+.indu .twall-item .two-item:nth-child(2) {
+    background-image: url(./纪伊校服.jpeg);
+}
+.indu .twall-item .two-item:nth-child(3) {
+    background-image: url(./玛丽亚校服.jpeg);
+}
+.indu .twall-item .two-item:nth-child(4) {
+    background-image: url(./空校服01.jpeg);
+}
+.indu .twall-item .two-item:nth-child(5) {
+    background-image: url(./诺艾.jpeg);
+}
+
+
+/*  */
+.foot {
+    width: 100%;
+    height: 52px;
+    background-color:rgba(255, 255, 255, 0.8);
+    text-align: center;
+}

@@ -1,0 +1,154 @@
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(./bg01.jpeg);
+    background-size: cover;
+}
+/*  */
+.oh-top {
+    width: 100%;
+    height: 52px;
+    background-color:rgba(255, 255, 255, 0.8);
+    margin-bottom: 5px;
+}
+
+.oh-top .container {
+    height: 52px;
+    /* background-color: yellow; */
+}
+.oh-top .logo {
+    height: 52px;
+    width: 100px;
+    background: no-repeat;
+    background-image: url(./偶活封面字体.jpg);
+    background-size: cover;
+    
+}
+.oh-top li {
+    display: inline-block;
+    height: 52px;
+    line-height: 52px;
+    margin-right: 10px;
+}
+.oh-top li:last-child {
+    margin-right: 0px;
+}
+.oh-top li{
+    color: pink;
+    font-size: 16px;
+}
+.oh-top li:hover{
+    font-size: 18px;
+    color: gold;
+}
+.oh-top .active {
+    font-size: 18px;
+    color: gold;
+}
+
+
+
+.entry .container {
+    height: 410px;
+    margin-bottom: 10px;
+    /* background-color: pink; */
+}
+
+.entry .en-pu {
+    width: 100%;
+    height: 410PX;
+    background-image: url(./全员.jpeg);
+    background-size: cover;
+}
+
+/*  */
+.indu .container {
+    height: 1800px;
+    /* background-color: pink; */
+}
+
+/*  */
+.indu .one {
+    width: 100%;
+    height: 350px;
+    /* background-color: yellow; */
+    padding-top: 10px;
+}
+.indu .one .one-pu {
+    width: 500px;
+    height: 320px;
+    margin-left: 20px;
+    background-image: url(./全员01.jpeg);
+    background-size: cover;
+}
+.indu .one-in {
+    width: 660px;
+    height: 320px;
+    font-size: 16px;
+}
+/*  */
+.indu .two {
+    width: 100%;
+    height: 480px;
+    padding-top: 10px;
+    /* background-color: gold; */
+}
+.indu .two-in {
+    width: 660px;
+    height: 450px;
+
+}
+.indu .two-pu {
+    width: 500px;
+    height: 360px;
+    margin-top: 60px;
+    background-image: url(./全员部分.jpeg);
+    background-size: cover;
+}
+/*  */
+.indu .three {
+    width: 100%;
+    height: 360px;
+    /* background-color: pink; */
+    padding-top: 10px;
+}
+.indu .thr-pu {
+    width: 500px;
+    height: 320px;
+    margin-left: 20px;
+    background-image: url(./stars部分.jpg);
+    background-size: cover;
+}
+.indu .thr-in {
+    width: 660px;
+    height: 320px;
+}
+/*  */
+.indu .four {
+    width: 100%;
+    height: 450px;
+    /* background-color: gold; */
+    padding-top: 10px;
+}
+.indu .fou-in {
+    width: 660px;
+    height: 320px;
+}
+.indu .fou-pu {
+    width: 500px;
+    height: 450px;
+    margin-top: 66px;
+    background-image: url(./友代全员.jpeg);
+    background-size: cover;
+}
+/*  */
+.oh-bottom {
+    width: 100%;
+    height: 52px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    color: pink;
+}
